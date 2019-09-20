@@ -1,5 +1,5 @@
 const fs = require('fs');
-var arraySaludos = ['hola','hello','ola','salve','مرحبا'];
+var arraySaludos = ['hola','hello','ola','salve','مرحبا','שלום','привет'];
 console.log("Escriba un nombre");
 var stdin = process.openStdin();
 stdin.addListener("data",function(d){
